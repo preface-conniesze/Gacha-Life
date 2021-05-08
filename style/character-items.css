@@ -1,0 +1,36 @@
+/*card*/
+/*character head*/
+.character-head>h2 {
+	display: inline-block;
+	padding: 0.5rem;
+}
+
+.card-template1 {
+	flex-direction: row;
+}
+
+.card-template1>.card-img-left {
+	width: 25%;
+}
+
+.card-template1>.card-body{
+	width: 75%;
+}
+
+@media(max-width: 576px) {
+	.character-head {
+		text-align: center;
+	}
+
+	.card-template1 {
+	flex-direction: column;
+	}
+
+	.card-template1>.card-img-left {
+		width: 100%;
+	}
+
+	.card-template1>.card-body{
+		width: 100%;
+	}
+} 
